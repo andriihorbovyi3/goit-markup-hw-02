@@ -20,7 +20,7 @@ ul {
 	list-style: none;
 }
 
-/* Hover and focus effects */
+/* Contact */
 .telephone:focus,
 .telephone:hover,
 .mail:focus,
@@ -63,7 +63,7 @@ ul {
 	text-decoration: none;
 }
 
-/* Main-Hero */
+/* Main */
 .main .hero {
 	background-color: var(--primary-bghero-color);
 	color: var(--primary-bgheader-color);
@@ -87,7 +87,7 @@ ul {
 	letter-spacing: 0.06em;
 	cursor: pointer;
 }
-/* Benefits-features */
+/* Features */
 .benefits {
 	background-color: var(--primary-bgfeatures-color);
 }
@@ -141,9 +141,6 @@ ul {
 	color: var(--primary-bgheader-color);
 	font-weight: 400;
 	font-style: normal;
-	/* Без font-style: normal;text-decoration: none;
-    текст виглядав курсивом з стилем Italic та підкреслений
-    з ситуації вийшов таким чином*/
 	line-height: 1.71;
 	text-decoration: none;
 }
@@ -152,9 +149,6 @@ ul {
 	color: var(--address-color);
 	font-weight: 400;
 	font-style: normal;
-	/* Без font-style: normal;text-decoration: none;
-    текст виглядав курсивом з стилем Italic та підкреслений
-    з ситуації вийшов таким чином*/
 	line-height: 1.71;
 	text-decoration: none;
 }
@@ -167,8 +161,7 @@ ul {
 	color: var(--accent-color);
 }
 
-/* Portfolio page*/
-/* Filter */
+/* Portfolio Page*/
 .main .portfolio {
 	background-color: var(--primary-bgfeatures-color);
 }
