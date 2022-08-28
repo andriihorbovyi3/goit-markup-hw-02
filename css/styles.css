@@ -2,6 +2,7 @@
 	--logo-color: #000000;
 	--text-color: #757575;
 	--title-text-color: #212121;
+	--main-hover: #2196f3;
 	--accent-color: #2196f3;
 	--address-color: rgba(255, 255, 255, 0.6);
 	--primary-bgheader-color: #ffffff;
@@ -24,9 +25,7 @@ ul {
 .telephone:focus,
 .telephone:hover,
 .mail:focus,
-.mail:hover,
-.link:hover,
-.link:focus {
+.mail:hover{
 	color: var(--accent-color);
 }
 /* Header */
@@ -46,31 +45,43 @@ ul {
 }
 
 /* Navigation */
-
 .link {
-	text-decoration: none;
+  text-decoration: none;
 }
-.nav-link:hover,
-.nav-link:focus,
+
+.nav {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.nav-list__link {
+  color: var(--main-dark);
+}
+
+.nav:focus,
+.nav:hover,
 .active {
-	color: #2196f3;
+  color: var(--main-hover);
 }
 
-
-
-.nav-link{
-	font-weight: 500;
-	line-height: 1.14;
-	letter-spacing: 0.02em;
-	color: #212121;
+.list {
+  list-style: none;
 }
 
+.nav-list {
+}
 
-.list{
-	font-weight: 500;
-	line-height: 1.14;
-	letter-spacing: 0.02em;
-	text-decoration: none;
+.header-container {
+  border-bottom: 1px solid #ececec;
+}
+
+.nav-list__item {
+
+}
+
+.nav-container {
 }
 
 .telephone,
@@ -188,7 +199,7 @@ ul {
 	color: var(--primary-bgheader-color);
 	cursor: pointer;
 }
-.filter-btn-one{
+.filter-btn-one {
 	background-color: var(--primary-bgsection-color);
 	color: var(--logo-color);
 	font-weight: 500;
